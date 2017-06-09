@@ -96,7 +96,7 @@ namespace _IPC2_HT1_201503705
             double resultado;
             resultado = (z * y) / x;
 
-            LblResultado.Text = Convert.ToString(resultado);
+            LblResultado.Text = Convert.ToString(resultado)+ " 201503705";
         }
     }
 }
