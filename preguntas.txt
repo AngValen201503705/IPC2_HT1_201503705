@@ -1,0 +1,11 @@
+1)
+Un commit es una copia o una modificacion que se quiere guardar parcialmente o mejor dicho localmente en
+nuestro ordenador, del codigo o de los archivos que deseamos en nuestro repositorio.
+
+2) merge es unir o hacer que casen nuestro archivos o codigo al momento de utilizar branches 
+
+3) La diferencia de pull y push, pull es obtener los archivos o codigo del repositorio a nuestra clonacion 
+local, push es subir nuestro respositorio a la nube, hacerla publica.
+
+4) se utilizan para realizar diferentes versiones o trabajar paralelamente el codigo y los archivos 
+para luego lograr una version final haciendo un merge.
