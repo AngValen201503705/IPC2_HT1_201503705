@@ -87,5 +87,16 @@ namespace _IPC2_HT1_201503705
 
             LblResultado.Text = temporal;
         }
+
+        private void BtnRegla3_Click(object sender, EventArgs e)
+        {
+            x = int.Parse(Txt1.Text);
+            y = int.Parse(Txt2.Text);
+            z = int.Parse(Txt3.Text);
+            double resultado;
+            resultado = (z * y) / x;
+
+            LblResultado.Text = Convert.ToString(resultado);
+        }
     }
 }

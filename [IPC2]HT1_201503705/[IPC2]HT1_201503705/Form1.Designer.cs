@@ -100,6 +100,7 @@
             this.BtnRegla3.TabIndex = 6;
             this.BtnRegla3.Text = "Regla 3";
             this.BtnRegla3.UseVisualStyleBackColor = true;
+            this.BtnRegla3.Click += new System.EventHandler(this.BtnRegla3_Click);
             // 
             // LblResultado
             // 
