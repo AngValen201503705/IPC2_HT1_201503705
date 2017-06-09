@@ -90,6 +90,7 @@
             this.BtnNombre.TabIndex = 5;
             this.BtnNombre.Text = "Nombre";
             this.BtnNombre.UseVisualStyleBackColor = true;
+            this.BtnNombre.Click += new System.EventHandler(this.BtnNombre_Click);
             // 
             // BtnRegla3
             // 

@@ -59,6 +59,33 @@ namespace _IPC2_HT1_201503705
             {
                 LblResultado.Text = "No Cumple";
             }
+
+        }
+
+        private void BtnNombre_Click(object sender, EventArgs e)
+        {
+            string temporal = "";
+            n1 = Txt1.Text;
+            var chars1 = n1.ToCharArray();
+            Array.Reverse(chars1);
+            for (int ctr = 0; ctr < chars1.Length; ctr++)
+            {
+                string digito = char.ToString(chars1[ctr]);
+                temporal = temporal + digito;
+            }
+
+            temporal = temporal + " ";
+
+            n2 = Txt2.Text;
+            var chars2 = n2.ToCharArray();
+            Array.Reverse(chars2);
+            for (int ctr = 0; ctr < chars2.Length; ctr++)
+            {
+                string digito = char.ToString(chars2[ctr]);
+                temporal = temporal + digito;
+            }
+
+            LblResultado.Text = temporal;
         }
     }
 }
