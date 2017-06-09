@@ -35,5 +35,30 @@ namespace _IPC2_HT1_201503705
 
             LblResultado.Text = Convert.ToString(resultado);
         }
+
+        private void BtnVocales_Click(object sender, EventArgs e)
+        {
+            int contador = 0;
+            n1 = Txt1.Text;
+            var chars = n1.ToCharArray();
+            for (int ctr = 0; ctr < chars.Length; ctr++)
+            {
+                string digito = char.ToString(chars[ctr]);
+
+                if (vocales.Contains(digito))
+                {
+                    contador++;
+                }
+            }
+            if (contador >= 5)
+            {
+
+                LblResultado.Text = "Cumple";
+            }
+            else
+            {
+                LblResultado.Text = "No Cumple";
+            }
+        }
     }
 }

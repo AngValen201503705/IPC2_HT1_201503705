@@ -80,6 +80,7 @@
             this.BtnVocales.TabIndex = 4;
             this.BtnVocales.Text = "Vocales";
             this.BtnVocales.UseVisualStyleBackColor = true;
+            this.BtnVocales.Click += new System.EventHandler(this.BtnVocales_Click);
             // 
             // BtnNombre
             // 
